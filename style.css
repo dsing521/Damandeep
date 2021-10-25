@@ -1,0 +1,445 @@
+/*
+File name : style.css
+Student’s Name : Damandeep Singh
+StudentID : 301170650
+Date : 10th oct, 2021
+*/
+
+.container {
+	width: 100%; 
+	background-color: #fefbf5; 
+}
+
+body {
+	font-size: 100%; 
+	line-height: 2em; 
+	font-family: 'Open Sans', sans-serif;
+	padding: 2%; 
+	background-color: #fefbf5; 
+}
+
+p {
+	font-size: 1.4em; 
+	color: #666666; 
+	font-weight: 300; 
+	padding: 2%; 	
+}
+
+.facts p {
+	line-height: 1.6em; 
+}
+
+/* HEADER */
+
+header {
+	background-image:url('../assets/header_image.jpg'); 
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	padding-bottom: 250px; 
+	padding-top: 100px 
+}
+
+/*navigation*/
+nav ul {
+	  list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+	  background-color:#fefbf5;
+      top: 0;
+      left: 0;
+      width: 100%;
+	  position: fixed; 
+	  z-index: 999999; 
+}
+
+
+nav ul li {
+	display: inline-block; 
+	padding: 2%; 
+}
+
+nav ul li a {
+	color: rgb(65, 28, 10) !important; 
+	font-size: 1.4em; 
+	font-weight: 400;  
+}
+
+
+body > article > header > nav + section h1 {
+	color: rgb(65, 28, 10) !important; 
+	font-weight: 400; 
+}
+
+body > article > header > nav + section h1 span {
+	font-size: 0.5em;
+	font-weight: 300; 
+	color: #ff6a21; 
+}
+
+body > article > header > nav + section {
+	text-align: center; 
+	font-size: 3em; 
+	background-color: rgba(248, 244, 243, 0.85) !important;
+	padding: 3%; 
+	border-radius: 5px; 
+	width: 80%; 
+	margin: 3% auto; 
+	
+}
+
+body > article > header > nav + section  a {
+	background-color: #50bbc0 !important;  
+	color: #fefbf5; 
+	margin-top: 2%; 
+	font-size: 0.6em;  
+	border-radius: 5px; 
+	margin-right: 2%; 
+	font-weight: 300; 
+	padding: 1%; 
+}
+
+
+body > article > header > nav + section p {
+	line-height: 1.8em; 
+	text-align: left;
+	color: #433767;
+	font-weight: 300; 
+	font-size: 0.6em !important; 
+	margin-top: 1%; 
+	
+}
+
+/* ABOUT SECTION */
+
+#about {
+	padding-top: 7%; 
+}
+
+#about img {
+	display: block; 
+	margin: 2% auto; 
+}
+
+#about h2 {
+	text-align: center; 
+	color: #433767; 
+}
+
+#about a[href="#"] {
+	display: block; 
+	text-align: center;
+	margin: 15% auto; 
+	font-weight: 300; 
+	font-size: 1.2em; 
+	border: 2px solid #ff6a21; 
+	color: #333333 !important; 
+	width: 30%; 
+	border-radius: 2px; 
+	font-size: 1.4em; 
+	padding: 1%; 
+}
+/* hides the hidden info*/
+.hidden {
+	visibility: hidden; 
+}
+
+.first {
+	margin-top: 90px !important; 
+}
+
+.facts p {
+	margin: 2% 5% 2% 5%;
+}
+
+.facts li {
+	font-size: 1.6em; 
+	color: #ff6a21; 
+	padding-bottom: 2%; 
+}
+
+body > article > header + section {
+	margin-bottom: 4%; 
+}
+
+/*WORK SECTION */
+
+body > article > header + section + section {
+	background-color: #50bbc0; 
+	padding: 2%; 
+	color: #fefbf5; 
+}
+
+body > article > header + section + section h2 {
+	text-align: center; 
+	border-bottom: 2px dotted #fefbf5;
+	width: 60%; 
+	padding-bottom: 1%;
+	margin: 2% auto; 
+}
+
+body > article > header + section + section p {
+	text-align: center; 
+	font-size: 1.8em; 
+	margin: 2% 0 4% 0; 
+}
+
+
+body > article > header + section + section > section + section a {
+	font-size: 1.6em; 
+	text-align: center; 
+	display: block; 
+	margin: 20% auto; 
+	color: rgb(65, 28, 10) !important; 
+	width: 60%; 
+	padding: 3%; 
+	border-radius: 2px;
+}
+
+/*Portfolio Section hover affect */
+.box {
+	width:250px;
+    height:250px;
+    margin:2% auto 0 auto; 
+}
+
+.overlay {
+ 		background:rgba(91, 164, 157, .6);
+       text-align:center;
+       padding:65px 0 66px 0;
+       opacity:0;
+       transition: opacity .25s ease;
+}
+
+.box:hover .overlay {
+        opacity:1;
+		
+}
+			   		   
+.caption {
+	font-weight:300;
+    text-align:center; 
+    color:rgb(255,255,255);
+    font-size:25px;
+	padding: 7%; 
+
+}
+
+#award {
+		  text-align: center; 
+		  font-size: 1.2em !important; 
+}
+
+/*TESTIMONIAL*/
+
+#testimonial {
+	padding: 5%; 
+	border-bottom: 15px solid #50bbc0 ; 
+	width: 100%;
+    margin: 0 auto; 
+}
+
+blockquote {
+	padding: 5%; 
+	color: #ff6a21; 
+	font-weight: 300; 
+	line-height: 1.6em; 
+
+}
+
+/*CONTACT*/
+
+#connect {
+	padding: 2%; 
+	margin-top: 2%; 
+}
+
+
+form {
+	padding: 0 2% 0 2%;
+	
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+	font-weight: 300; 
+	font-size: 1.4em; 
+}
+
+input, textarea {
+
+	width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+textarea {
+	height:213px;
+
+}
+#submit {
+	background-color: #ff6a21;
+	color: #ffffff; 
+	width: 40%; 
+	font-size: 1.4em;
+	padding: 1% 0 4% 0; 
+	margin-left: 15%; 
+	margin-top: 5%; 
+}
+
+#connect p {
+	padding: none; 
+}
+
+#connect h2 {
+	text-align: center; 
+	margin-bottom: 5%; 
+}
+
+#connect h3 {
+	color: #ff6a21 !important; 
+	font-size: 4em; 
+	font-weight: 300; 
+}
+
+#connect h4 {
+	padding-top: 5%; 
+	padding-bottom: 5%; 
+	font-size: 2.5em; 
+	color: #999999; 
+}
+
+#connect a > img {
+	padding: 2%; 
+	margin-top: 2%; 
+	margin-bottom: 10%; 
+}
+
+
+/*FOOTER */ 
+
+footer p {
+	padding: 2%; 
+	font-size: 1.6em; 
+}
+
+
+
+/*RESPONSIVE */
+
+@media screen and (max-width: 960px) {
+	header p {
+		line-height: 3em; 
+		font-size: 2em !important; 
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+		padding: 0px !important; 
+	}
+  .first {
+	  margin-top: 50px !important; 
+  }
+  p {
+   font-size: 1.4em !important; 
+   line-height: 1.2em; 
+   padding: 0 !important; 
+   margin: 0 !important; 
+  }
+  h4 {
+	  text-align: center; 
+  }
+	.jumbotron h1 {
+	  font-size: 1.2em !important; 
+	  text-align: center; 
+  }
+  .jumbotron span {
+	  display: block; 
+	  font-size: 0.8em; 
+	  text-align: center;  
+	
+  }
+  #testimonial h2 {
+	  text-align: center; 
+  }
+  
+  #connect {
+	  margin-top: 2%; 
+  }
+  
+  #connect img[src="assets/portfolio.jpg"] {
+	  display: block; 
+	  margin: 5% auto; 
+	  padding-top: 2%; 
+  }
+  
+  #connect h3 {
+	  text-align: center; 
+  }
+  
+  #connect p {
+	  font-size: 1.4em !important; 
+	  padding: 2% 0 2% 0 !important; 
+	 
+  }
+  
+  .social {
+	  margin-left: 15%;  
+  }
+  
+  li {
+	  line-height: 1.6em; 
+  }
+	
+	.featured img:first-of-type {
+		margin-left: 25%; 
+		
+	}
+	
+	.facts p {
+		padding-bottom: 50px !important; 
+		font-size: 1.8em; 
+	}
+	
+	
+	header {
+		background-image: none !important; 
+		background-color: #fefbf5; 
+		margin-bottom: 0 !important; 
+		padding: 0px !important; 
+	}
+	
+	form {
+		padding-top: 10% !important; 
+		padding-bottom: 10% !important; 
+	}
+	
+	form input, form textarea {
+		width: 90%; 
+		display: block; 
+		margin: 0 auto; 
+	}
+
+}
+
+
+
+
+
+
+
+
+
